@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -16,61 +17,193 @@
 </head>
 <body class="container-fluid">
 	<div class="enhance-stay-block row">
-		<div class="enhance-stay-block__heading col-10">
+		<div class="enhance-stay-block__heading col-lg-10">
 			<h2>Enhance Your Stay</h2>
-			<button class="ic-close"></button>
 		</div>
-		<ul class="enhance-stay-block__enhance-list col-10">
+		<ul class="enhance-stay-block__enhance-list col-lg-10">
 			<li class="enhance-stay-block__enhance-list_item">
 				<div class="enhance-stay-block__enhance-list_item-heading">
 					<div class="enhance-stay-block__enhance-list_image-container"></div>
 					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
+					<button class="close-button enhance-stay-block__enhance-list_item-close-btn"></button>
 				</div>
-				<div class="enhance-stay-block__enhance-list_item-content">
-
+				<div class="enhance-stay-block__enhance-list_item-content enhance-stay-block__enhance-list_item-content--inner clearfix">
+					<div class="enhance-stay-block__enhance-list_item-content--0 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<p class="enhance-stay-block__enhance-list_item-description">One way from LAX 3 days advance required.</p>
+						<p class="enhance-stay-block__enhance-list_item-description">Addtiona $20 for international arrivals</p>
+					</div>
+					<div class="enhance-stay-block__enhance-list_item-content--1 col-xs-12">
+						<select name="date" id="date" class="">
+							<option>Date</option>
+							<option value="1">1 December</option>
+							<option value="2">2 December</option>
+							<option value="3">3 December</option>
+							<option value="4">4 December</option>
+							<option value="5">5 December</option>
+							<option value="6">6 December</option>
+							<option value="7">7 December</option>
+							<option value="8">8 December</option>
+							<option value="9">9 December</option>
+							<option value="10">10 December</option>
+							<option value="11">11 December</option>
+							<option value="12">12 December</option>
+							<option value="13">14 December</option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+						<select name="time" id="time">
+							<option>Time</option>
+							<option value="1">01:00</option>
+							<option value="2">02:00</option>
+							<option value="3">03:00</option>
+							<option value="4">04:00</option>
+							<option value="5">05:00</option>
+							<option value="6">06:00</option>
+							<option value="7">07:00</option>
+							<option value="8">08:00</option>
+							<option value="9">09:00</option>
+							<option value="10">10:00</option>
+							<option value="11">11:00</option>
+							<option value="12">12:00</option>
+							<option value="13">13:00</option>
+							<option value="14">14:00</option>
+							<option value="15">15:00</option>
+							<option value="16">16:00</option>
+							<option value="17">17:00</option>
+							<option value="18">18:00</option>
+							<option value="19">19:00</option>
+							<option value="20">20:00</option>
+							<option value="21">21:00</option>
+							<option value="22">22:00</option>
+							<option value="23">23:00</option>
+							<option value="0">00:00</option>
+						</select>
+					</div>
+					<div class="enhance-stay-block__enhance-list_item-content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="enhance-stay-block__price">120$</div>
+						<button class="add-button enhance-stay-block__enhance-list_item-button enhance-stay-block__enhance-list_item-button--add">add to cart</button>
+					</div>
 				</div>
 			</li>
 			<li class="enhance-stay-block__enhance-list_item">
 				<div class="enhance-stay-block__enhance-list_item-heading">
 					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
-				</div>
-				<div class="enhance-stay-block__enhance-list_item-content">
-
+					<span class="enhance-stay-block__enhance-list_item-label">Flowers</span>
+					<button class="add-button">add to cart</button>
 				</div>
 			</li>
 			<li class="enhance-stay-block__enhance-list_item">
 				<div class="enhance-stay-block__enhance-list_item-heading">
 					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
-				</div>
-				<div class="enhance-stay-block__enhance-list_item-content">
-
+					<span class="enhance-stay-block__enhance-list_item-label">Fruit Basket</span>
+					<button class="add-button">add to cart</button>
 				</div>
 			</li>
 			<li class="enhance-stay-block__enhance-list_item">
 				<div class="enhance-stay-block__enhance-list_item-heading">
 					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
-				</div>
-				<div class="enhance-stay-block__enhance-list_item-content">
-
+					<span class="enhance-stay-block__enhance-list_item-label">Champagne</span>
+					<button class="add-button">add to cart</button>
 				</div>
 			</li>
 			<li class="enhance-stay-block__enhance-list_item enhance-stay-block__enhance-list_item--last">
 				<div class="enhance-stay-block__enhance-list_item-heading">
 					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
-				</div>
-				<div class="enhance-stay-block__enhance-list_item-content">
-
+					<span class="enhance-stay-block__enhance-list_item-label">Spa Treatment</span>
+					<button class="add-button">add to cart</button>
 				</div>
 			</li>
 		</ul>
-		<div class="enhance-stay-block__enhance-list_item-content">
-			<div></div>
-			<div></div>
-			<div></div>
+		<div class="enhance-stay-block__enhance-list_item-content enhance-stay-block__enhance-list_item-content--outer col-lg-10 clearfix">
+			<div class="enhance-stay-block__enhance-list_item-content--0 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label class="enhance-stay-block__enhance-list_item-label--content">Airport transfer</label>
+				<p class="enhance-stay-block__enhance-list_item-description">One way from LAX 3 days advance required.</p>
+				<p class="enhance-stay-block__enhance-list_item-description">Addtiona $20 for international arrivals</p>
+			</div>
+			<div class="enhance-stay-block__enhance-list_item-content--1 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<select name="date" id="date" class="">
+					<option>Date</option>
+					<option value="1">1 December</option>
+					<option value="2">2 December</option>
+					<option value="3">3 December</option>
+					<option value="4">4 December</option>
+					<option value="5">5 December</option>
+					<option value="6">6 December</option>
+					<option value="7">7 December</option>
+					<option value="8">8 December</option>
+					<option value="9">9 December</option>
+					<option value="10">10 December</option>
+					<option value="11">11 December</option>
+					<option value="12">12 December</option>
+					<option value="13">14 December</option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+				<select name="time" id="time">
+					<option>Time</option>
+					<option value="1">01:00</option>
+					<option value="2">02:00</option>
+					<option value="3">03:00</option>
+					<option value="4">04:00</option>
+					<option value="5">05:00</option>
+					<option value="6">06:00</option>
+					<option value="7">07:00</option>
+					<option value="8">08:00</option>
+					<option value="9">09:00</option>
+					<option value="10">10:00</option>
+					<option value="11">11:00</option>
+					<option value="12">12:00</option>
+					<option value="13">13:00</option>
+					<option value="14">14:00</option>
+					<option value="15">15:00</option>
+					<option value="16">16:00</option>
+					<option value="17">17:00</option>
+					<option value="18">18:00</option>
+					<option value="19">19:00</option>
+					<option value="20">20:00</option>
+					<option value="21">21:00</option>
+					<option value="22">22:00</option>
+					<option value="23">23:00</option>
+					<option value="0">00:00</option>
+				</select>
+			</div>
+			<div class="enhance-stay-block__enhance-list_item-content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div>120$</div>
+				<button class="add-button enhance-stay-block__enhance-list_item-button enhance-stay-block__enhance-list_item-button--add">add to cart</button>
+			</div>
+			<button class="close-button"></button>
 		</div>
 	</div>
 </body>

@@ -1,11 +1,32 @@
-.ic-close {
-  width: 70px;
-  height: 63px;
+.book-wrap .upgrade-room-holder .uproom-ri p, .book-wrap .upgrade-room-holder .uproom-ri .uproom-button, .reserv-block .reserv-title .view-more, .reserv-block .fl-l, .reserv-block strong + p, .btn-step-3-complete, .form-block input[type=text], .form-block .row.checkboxes label, .form-block select, .form-block .hoshi h2, .form-block label, .b-step2-ul .extra-descr .info, .b-step2-ul .extra-descr .left .title, .btn-rates, .btn-book, .b-step2-ul .extra-list, .reserv-block .promo-wrap, .book-wrap .calendar-wrap .legend, .booking-step-1-complete, .calendar-month td {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.add-button {
+  height: 34px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 500;
+  line-height: 19px;
   text-align: center;
-  color: #fff;
-  text-decoration: none;
-  padding: 13px 0 0;
-  background: url(assets/ic-close.png) center no-repeat #043468;
+  border: 0;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background: #2d6c66;
+  color: #ffffff;
+}
+
+.close-button {
+  background: url("assets/icons/close-button.png") no-repeat center;
+  width: 27px;
+  height: 27px;
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
   border: none;
   -webkit-appearance: none;
 }
@@ -14,7 +35,7 @@
   list-style-type: none;
   display: flex;
   overflow-x: auto;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
 }
 .enhance-stay-block__enhance-list_item {
@@ -22,6 +43,15 @@
 }
 .enhance-stay-block__enhance-list_item-heading {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_item-heading {
+    padding: 15px;
+    background-color: #F1F1F1;
+  }
 }
 .enhance-stay-block__enhance-list_item-label {
   position: absolute;
@@ -29,13 +59,95 @@
   left: 10px;
   color: #ffffff;
 }
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_item-label {
+    color: #3C3C3C;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 400;
+  }
+}
+.enhance-stay-block__enhance-list_item-label--content {
+  color: #3c3c3c;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
 .enhance-stay-block__enhance-list_item--last {
   margin-right: 0;
+}
+.enhance-stay-block__enhance-list_item-content {
+  position: relative;
+  box-shadow: 10px 10px 4px 0px rgba(100, 100, 100, 0.5);
+  border: 1px solid #CFCFCE;
+  background-color: #F1F1F1;
+  padding: 15px;
+}
+.enhance-stay-block__enhance-list_item-content--inner {
+  display: none;
+  border: 0;
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_item-content--inner {
+    display: block;
+  }
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_item-content--outer {
+    display: none;
+  }
+}
+.enhance-stay-block__enhance-list_item-content--0 {
+  padding: 0;
+}
+.enhance-stay-block__enhance-list_item-content--1 {
+  padding: 0;
+}
+.enhance-stay-block__enhance-list_item-content--2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.enhance-stay-block__enhance-list_item-close-btn {
+  display: none;
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_item-close-btn {
+    display: block;
+  }
 }
 .enhance-stay-block__enhance-list_image-container {
   width: 185px;
   height: 185px;
   background-color: red;
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list_image-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 534px) {
+  .enhance-stay-block__enhance-list {
+    flex-direction: column;
+  }
+  .enhance-stay-block__enhance-list_item {
+    margin-right: 0;
+    border: 1px solid #CFCFCE;
+  }
+  .enhance-stay-block__enhance-list_item-heading {
+    position: relative;
+  }
+  .enhance-stay-block__enhance-list_item-label {
+    position: static;
+    color: #636363;
+  }
+  .enhance-stay-block__enhance-list_item-content {
+    box-shadow: none;
+  }
+}
+.enhance-stay-block__price {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */
