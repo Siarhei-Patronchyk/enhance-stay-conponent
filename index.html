@@ -17,23 +17,24 @@
 </head>
 <body class="container-fluid">
 	<div class="enhance-stay-block row">
-		<div class="enhance-stay-block__heading col-lg-10">
+		<div class="enhance-stay-block__heading enhance-stay-block__heading--content-expanded">
 			<h2>Enhance Your Stay</h2>
 		</div>
-		<ul class="enhance-stay-block__enhance-list col-lg-10">
-			<li class="enhance-stay-block__enhance-list_item">
-				<div class="enhance-stay-block__enhance-list_item-heading">
-					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Airport transfer</span>
-					<button class="close-button enhance-stay-block__enhance-list_item-close-btn"></button>
+		<ul class="enhance-stay-block__list">
+			<li class="enhance-stay-block__item">
+				<div class="enhance-stay-block__item_heading">
+					<div class="enhance-stay-block__item_image-container" style="background-image: url('assets/img/img_1.png');"></div>
+					<span class="enhance-stay-block__item_label">Airport transfer</span>
+					<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--content-expanded"></button>
+					<button class="add-button enhance-stay-block__item_add-btn enhance-stay-block__item_add-btn--heading enhance-stay-block__item_add-btn--content-expanded">add to cart</button>
 				</div>
-				<div class="enhance-stay-block__enhance-list_item-content enhance-stay-block__enhance-list_item-content--inner clearfix">
-					<div class="enhance-stay-block__enhance-list_item-content--0 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-						<p class="enhance-stay-block__enhance-list_item-description">One way from LAX 3 days advance required.</p>
-						<p class="enhance-stay-block__enhance-list_item-description">Addtiona $20 for international arrivals</p>
+				<div class="enhance-stay-block__item_content enhance-stay-block__item_content--inner clearfix">
+					<div class="enhance-stay-block__item_content--0 form-group col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<p class="enhance-stay-block__item_description">One way from LAX 3 days advance required.</p>
+						<p class="enhance-stay-block__item_description">Additional $20 for international arrivals</p>
 					</div>
-					<div class="enhance-stay-block__enhance-list_item-content--1 col-xs-12">
-						<select name="date" id="date" class="">
+					<div class="enhance-stay-block__item_content--1 col-xs-12">
+						<select name="date" id="date" class="date-select enhance-stay-block__item_date-select form-group">
 							<option>Date</option>
 							<option value="1">1 December</option>
 							<option value="2">2 December</option>
@@ -48,26 +49,8 @@
 							<option value="11">11 December</option>
 							<option value="12">12 December</option>
 							<option value="13">14 December</option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
-							<option value=""></option>
 						</select>
-						<select name="time" id="time">
+						<select name="time" id="time" class="date-select form-group">
 							<option>Time</option>
 							<option value="1">01:00</option>
 							<option value="2">02:00</option>
@@ -95,49 +78,54 @@
 							<option value="0">00:00</option>
 						</select>
 					</div>
-					<div class="enhance-stay-block__enhance-list_item-content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="enhance-stay-block__item_content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<div class="enhance-stay-block__price">120$</div>
-						<button class="add-button enhance-stay-block__enhance-list_item-button enhance-stay-block__enhance-list_item-button--add">add to cart</button>
+						<button class="add-button enhance-stay-block__item_button enhance-stay-block__item_button--add">add to cart</button>
+						<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--heading"></button>
 					</div>
 				</div>
 			</li>
-			<li class="enhance-stay-block__enhance-list_item">
-				<div class="enhance-stay-block__enhance-list_item-heading">
-					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Flowers</span>
-					<button class="add-button">add to cart</button>
+			<li class="enhance-stay-block__item">
+				<div class="enhance-stay-block__item_heading">
+					<div class="enhance-stay-block__item_image-container" style="background-image: url('assets/img/img_2.png');"></div>
+					<span class="enhance-stay-block__item_label">Flowers</span>
+					<button class="add-button enhance-stay-block__item_add-btn enhance-stay-block__item_add-btn--heading">add to cart</button>
+					<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--heading"></button>
 				</div>
 			</li>
-			<li class="enhance-stay-block__enhance-list_item">
-				<div class="enhance-stay-block__enhance-list_item-heading">
-					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Fruit Basket</span>
-					<button class="add-button">add to cart</button>
+			<li class="enhance-stay-block__item">
+				<div class="enhance-stay-block__item_heading">
+					<div class="enhance-stay-block__item_image-container" style="background-image: url('assets/img/img_3.png');"></div>
+					<span class="enhance-stay-block__item_label">Fruit Basket</span>
+					<button class="add-button enhance-stay-block__item_add-btn enhance-stay-block__item_add-btn--heading">add to cart</button>
+					<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--heading"></button>
 				</div>
 			</li>
-			<li class="enhance-stay-block__enhance-list_item">
-				<div class="enhance-stay-block__enhance-list_item-heading">
-					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Champagne</span>
-					<button class="add-button">add to cart</button>
+			<li class="enhance-stay-block__item">
+				<div class="enhance-stay-block__item_heading">
+					<div class="enhance-stay-block__item_image-container" style="background-image: url('assets/img/img_4.png');"></div>
+					<span class="enhance-stay-block__item_label">Champagne</span>
+					<button class="add-button enhance-stay-block__item_add-btn enhance-stay-block__item_add-btn--heading">add to cart</button>
+					<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--heading"></button>
 				</div>
 			</li>
-			<li class="enhance-stay-block__enhance-list_item enhance-stay-block__enhance-list_item--last">
-				<div class="enhance-stay-block__enhance-list_item-heading">
-					<div class="enhance-stay-block__enhance-list_image-container"></div>
-					<span class="enhance-stay-block__enhance-list_item-label">Spa Treatment</span>
-					<button class="add-button">add to cart</button>
+			<li class="enhance-stay-block__item enhance-stay-block__item--last">
+				<div class="enhance-stay-block__item_heading">
+					<div class="enhance-stay-block__item_image-container" style="background-image: url('assets/img/img_5.png');"></div>
+					<span class="enhance-stay-block__item_label">Spa Treatment</span>
+					<button class="add-button enhance-stay-block__item_add-btn enhance-stay-block__item_add-btn--heading">add to cart</button>
+					<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--heading"></button>
 				</div>
 			</li>
 		</ul>
-		<div class="enhance-stay-block__enhance-list_item-content enhance-stay-block__enhance-list_item-content--outer col-lg-10 clearfix">
-			<div class="enhance-stay-block__enhance-list_item-content--0 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				<label class="enhance-stay-block__enhance-list_item-label--content">Airport transfer</label>
-				<p class="enhance-stay-block__enhance-list_item-description">One way from LAX 3 days advance required.</p>
-				<p class="enhance-stay-block__enhance-list_item-description">Addtiona $20 for international arrivals</p>
+		<div class="enhance-stay-block__item_content enhance-stay-block__item_content--outer clearfix">
+			<div class="enhance-stay-block__item_content--0 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<label class="enhance-stay-block__item_label--content">Airport transfer</label>
+				<p class="enhance-stay-block__item_description">One way from LAX 3 days advance required.</p>
+				<p class="enhance-stay-block__item_description">Additional $20 for international arrivals</p>
 			</div>
-			<div class="enhance-stay-block__enhance-list_item-content--1 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				<select name="date" id="date" class="">
+			<div class="enhance-stay-block__item_content--1 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<select name="date" id="date" class="date-select form-group">
 					<option>Date</option>
 					<option value="1">1 December</option>
 					<option value="2">2 December</option>
@@ -171,7 +159,7 @@
 					<option value=""></option>
 					<option value=""></option>
 				</select>
-				<select name="time" id="time">
+				<select name="time" id="time" class="date-select form-group">
 					<option>Time</option>
 					<option value="1">01:00</option>
 					<option value="2">02:00</option>
@@ -199,11 +187,11 @@
 					<option value="0">00:00</option>
 				</select>
 			</div>
-			<div class="enhance-stay-block__enhance-list_item-content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
-				<div>120$</div>
-				<button class="add-button enhance-stay-block__enhance-list_item-button enhance-stay-block__enhance-list_item-button--add">add to cart</button>
+			<div class="enhance-stay-block__item_content--2 col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<div class="enhance-stay-block__price">120$</div>
+				<button class="add-button enhance-stay-block__item_add-btn">add to cart</button>
 			</div>
-			<button class="close-button"></button>
+			<button class="close-button enhance-stay-block__item_close-btn enhance-stay-block__item_close-btn--outer"></button>
 		</div>
 	</div>
 </body>
